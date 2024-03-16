@@ -163,7 +163,7 @@ namespace MatrizComOrdenacao
             Console.Write("Escolha a linha que deseja ordenar: ");
             int linha = int.Parse(Console.ReadLine());
             int linhaFixa = linha - 1;
- 
+
             for (int l = 0; l < Matriz.GetLength(0); l++)
             {
                 for (int c = l + 1; c < Matriz.GetLength(0); c++)
